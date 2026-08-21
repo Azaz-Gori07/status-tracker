@@ -28,8 +28,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git config user.name 'Azaz-Gori07'
+          git config user.email 'Azaz-Gori07@users.noreply.github.com'
           git add activity.txt
           if git diff --cached --quiet; then
             echo 'No change, skipping commit'
